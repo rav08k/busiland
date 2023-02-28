@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/busiland/static/css/main.0ff40ef8.css",
+    "main.js": "/busiland/static/js/main.01ccaaf3.js",
+    "static/js/787.5e6dc19e.chunk.js": "/busiland/static/js/787.5e6dc19e.chunk.js",
+    "static/media/hero-section-img.png": "/busiland/static/media/hero-section-img.b5702db43fdd5782fd30.png",
+    "static/media/instagram.png": "/busiland/static/media/instagram.c777007014e5a3687a98.png",
+    "static/media/pinterest.png": "/busiland/static/media/pinterest.feb7a435c92de4be770f.png",
+    "static/media/revenueImg.png": "/busiland/static/media/revenueImg.7e93a07213a4c530888e.png",
+    "static/media/twitter.png": "/busiland/static/media/twitter.7e211b623070182d3f39.png",
+    "static/media/img1.jpg": "/busiland/static/media/img1.1625d7bc1a6bae1f786a.jpg",
+    "static/media/img7.jpg": "/busiland/static/media/img7.eb02203acb04d17dd175.jpg",
+    "static/media/img4.jpg": "/busiland/static/media/img4.a280bc97f5695399e7d8.jpg",
+    "static/media/linkedin.png": "/busiland/static/media/linkedin.f9402a4952d2d01db41a.png",
+    "static/media/generic_logo.png": "/busiland/static/media/generic_logo.5c74fce65d8af3147061.png",
+    "static/media/img2.jpg": "/busiland/static/media/img2.55678944e45afafa24e1.jpg",
+    "static/media/featureCard4.svg": "/busiland/static/media/featureCard4.f998883cc85a5c45e6387853d64f7b7e.svg",
+    "static/media/featureCard1.svg": "/busiland/static/media/featureCard1.bff9b5a78c51503894784a0e8d71a4c6.svg",
+    "static/media/featureCard3.svg": "/busiland/static/media/featureCard3.fb96e24d27959b6a1087b2df991533af.svg",
+    "static/media/featureCard2.svg": "/busiland/static/media/featureCard2.d31f2e49c9b37236b4acce91995276bd.svg",
+    "index.html": "/busiland/index.html",
+    "main.0ff40ef8.css.map": "/busiland/static/css/main.0ff40ef8.css.map",
+    "main.01ccaaf3.js.map": "/busiland/static/js/main.01ccaaf3.js.map",
+    "787.5e6dc19e.chunk.js.map": "/busiland/static/js/787.5e6dc19e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ff40ef8.css",
+    "static/js/main.01ccaaf3.js"
+  ]
+}
