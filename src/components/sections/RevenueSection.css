@@ -1,0 +1,84 @@
+.revenue_container{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.revenue_grid_item-1{
+    grid-row: 1/span 1;
+    grid-column: 1/span 5;
+}
+
+.revenue_grid_item-2{
+    grid-row: 1/span 1;
+    grid-column: 7/span 6;
+}
+
+.revenue_section__img{
+    height: 540px;
+}
+
+.revenue_section__main_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.revenue_section__main_card .big-para-text{
+    text-align: left;
+}
+.revenue_section__main_card .global-title{
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .revenue_grid_item-1{
+        grid-row: 1/span 1;
+        grid-column: 2/span 10;
+    }
+    
+    .revenue_grid_item-2{
+        grid-row: 2/span 1;
+        grid-column: 2/span 10;
+    }
+    .revenue_section__main_card{
+        align-items: center;
+    }
+
+   
+
+    .revenue_section__main_card .big-para-text{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .revenue_section__img{
+        height: 340px;
+    }
+
+    .revenue_grid_item-1{
+        grid-row: 1/span 1;
+        grid-column: 1/span 12;
+    }
+    
+    .revenue_grid_item-2{
+        grid-row: 2/span 1;
+        grid-column: 1/span 12;
+    }
+    .revenue_section__main_card{
+        align-items: center;
+    }
+
+    .revenue_section__main_card .global-title{
+        text-align: center;
+        width: 90%;
+    }
+    .revenue_section__main_card .big-para-text{
+        text-align: center;
+    }
+
+}

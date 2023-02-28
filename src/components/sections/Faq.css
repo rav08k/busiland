@@ -1,0 +1,114 @@
+.faq_container{
+    flex-direction: column;
+}
+
+.faq__card_container{
+    width: 97%;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* border: solid; */
+    margin-top: 50px;
+}
+
+.faq__card_wrapper_left{
+    width: 48%;
+}
+.faq__card_wrapper_right{
+    width: 48%;
+}
+
+.faq_card__wrapper{
+    width: 100%;
+    height: auto;
+    border: solid rgba(128, 128, 128, 0.4) 0.5px;
+    padding: 25px 20px 25px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: all 0.25s linear;
+    position: relative;
+    cursor: pointer;
+}
+.faq_card__wrapper.active{
+    border: solid #6b46c1be 0.5px;
+}
+
+.faq_card__question{
+    font-size: 24px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    text-align: left;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+
+.faq_card__question::after{
+    content: "+";
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    cursor: pointer;
+}
+.faq_card__question.active::after{
+    content: "-";
+    top: 20px;
+    right: 22px;
+    font-size: 28px;
+}
+
+.faq_card__answer{
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    transition: all 0.3s;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    text-align: justify;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+
+    .faq__card_container{
+        width: 98%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* flex-wrap: wrap; */
+        /* border: solid; */
+        margin-top: 50px;
+    }
+    .faq__card_wrapper_left{
+        width: 100%;
+    }
+    .faq__card_wrapper_right{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .faq_card__question{
+        font-size: 20px;
+    }
+    .faq_card__answer{
+        font-size: 16px;
+    }
+    .faq_card__wrapper{
+        padding: 20px 25px 20px 15px;
+    } 
+    .faq_card__question::after{
+        right: 11px;
+        top: 21px;
+    }
+    .faq_card__question.active::after{
+        /* content: "-"; */
+        top: 13px;
+        right: 12px;
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,40 @@
+.superpower_container{
+    padding: 65px;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: #6b46c1;
+}
+
+.superpower_container .global-title{
+    color: white;
+    width: 60%;
+}
+.superpower_container .global-btn{
+    background: #fff;
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    .superpower_container{
+        padding: 40px;
+        margin: 0 20px;
+    }
+    .superpower_container .global-title{
+        color: white;
+        width: 70%;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .superpower_container{
+        padding: 20px;
+        margin: 0 15px;
+        flex-direction: column;
+    }
+    .superpower_container .global-title{
+        color: white;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}

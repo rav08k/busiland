@@ -1,0 +1,36 @@
+App.js
+section component
+container component
+cards component
+button component
+faq cards component
+input component
+title text component
+big-para text component
+cards-details text component
+-----------------x-------------x---------------x---------------x------
+Page architecture
+
+App.js{
+    header{
+        navigation section{
+            container{
+                contents
+            }
+        }
+    }
+    main{
+        hero section{
+            container{
+                contents
+            }
+        }... other sections
+    }
+    footer{
+        footer section{
+            container{
+                contents
+            }
+        }
+    }
+}
